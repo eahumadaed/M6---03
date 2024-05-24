@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <div class="jumbotron mt-5">
+        <h1 class="display-4">Bienvenido al Salvaje Oeste de Django!</h1>
+        <p class="lead">Aquí, hasta los caballos tienen mejor puntería que los villanos de las películas de acción modernas.</p>
+        <hr class="my-4">
+        <p>Sigue explorando y descubrirás que no solo la D es muda, también lo es la posibilidad de aburrirse.</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'about' %}" role="button">Más sobre nosotros</a>
+    </div>
+{% endblock %}
